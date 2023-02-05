@@ -1,0 +1,108 @@
+/* Google font link  */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: #1abc9c;
+}
+ul li{
+    list-style: none;
+}
+.container{
+    width: 690px;
+    background: #ffffff;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.wrapper{
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+
+.wrapper .text-input{
+    display:flex;
+    border-bottom: 1px solid #ddd;
+}
+
+.text-input .to-text{
+    border-left: 1px solid #ddd;
+    border-radius: 0;
+}
+
+.text-input textarea{
+    height: 250px;
+    width: 100%;
+    border: none;
+    outline: none;
+    background: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    resize: none;
+}
+
+.controls , li{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 15px;
+}
+
+.controls .row.form .icons{
+    padding-right: 15px;
+    border-right: 1px solid #ddd;
+}
+.controls .row.to .icons{
+    padding-left: 15px;
+    border-left: 1px solid #ddd;
+}
+
+.controls .row.form select{
+    margin-left: 15px;
+}
+.controls .row.to select{
+    margin-right: 15px;
+}
+
+.controls .icons i{
+    width: 30px;
+    color: #9f9f9f;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.controls .row select{
+    border: none;
+    outline: none;
+    font-size: 18px;
+    background: none;
+}
+
+.controls .exchange{
+    color: #9f9f9f;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.container button{
+    margin-top: 20px;
+    width: 100%;
+    padding: 15px;
+    outline: none;
+    border: none;
+    background: #1abc9c;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 5px;
+    font-size: 17px;
+}
